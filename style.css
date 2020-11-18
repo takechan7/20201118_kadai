@@ -25,6 +25,10 @@ a{
     text-decoration: none;
 }
 
+small{
+    font-size: 100%;
+}
+
 /* レイアウト
 --------------------------------------*/
 
@@ -49,6 +53,11 @@ a{
 
 .l-bgBlue{
     background-color: #123D88;
+    color: #fff;
+}
+
+.l-bgBlue h2{
+    color: #fff;
 }
 
 .l-textCenter{
@@ -77,6 +86,8 @@ a{
 /* l-footer */
 .l-footer{
     padding: 30px 0;
+    color: #fff;
+    font-size: 15px;
 }
 
 /* home */
@@ -103,6 +114,21 @@ a{
 
 .speciality-list .card{
     width: 27.3%;
+}
+
+/* about */
+.choose-list .card{
+    width: 48.7%;
+    margin-bottom: 30px;
+}
+
+.wedo-list .card{
+    width: 25.6%;
+}
+
+/* help */
+.secure-list .card{
+    width: 31.6%;
 }
 
 /* モジュール
@@ -146,6 +172,12 @@ a{
 .btn_info{
     background-color: #2DBE61;
     box-shadow: 0 5px 10px rgba(22, 132, 61, 0.1);
+}
+
+.btn_outline{
+    border: 1px solid #fff;
+    background-color: transparent;
+    box-shadow: none;
 }
 
 /* card */
@@ -200,10 +232,4 @@ a{
 .media_lead{
     max-width: 770px;
     margin: 0 auto 80px;
-}
-
-/* copyright */
-.copyright{
-    font-size: 15px;
-    color: #fff;
 }
